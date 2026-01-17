@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=3 uid="uid://d2mlum1gv77i6"]
+
+[ext_resource type="Script" uid="uid://bvsqcxjcgcq1d" path="res://Scripts/Menu/ImmersiveMenu.cs" id="1_w32jx"]
+[ext_resource type="PackedScene" uid="uid://b5shx5mjk3pri" path="res://Backgrounds/VideoPlayerBackground/VideoPlayerBackground.tscn" id="2_0cyjp"]
+[ext_resource type="Theme" uid="uid://ddeavi5asx4hw" path="res://Menu/MenuTheme.tres" id="3_m87qx"]
+[ext_resource type="Script" uid="uid://gm7acaovlrd" path="res://Scripts/Menu/Menu.cs" id="4_3c4i7"]
+
+[node name="Menu" type="Node" node_paths=PackedStringArray("GUI")]
+script = ExtResource("1_w32jx")
+GUI = NodePath("CanvasLayer/Control")
+DefaultBackground = ExtResource("2_0cyjp")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer" node_paths=PackedStringArray("Buttons")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_m87qx")
+script = ExtResource("4_3c4i7")
+Buttons = {}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.062
+anchor_top = 0.1
+anchor_right = 0.368
+anchor_bottom = 0.9
+size_flags_horizontal = 6
+size_flags_vertical = 6
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+expand_mode = 5
+
+[node name="Control" type="Control" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="StartButton" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+text = "Start"
+alignment = 0
+
+[node name="OptionsButton" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+text = "Options"
+alignment = 0
+
+[node name="ExitButton" type="Button" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+text = "Exit"
+alignment = 0

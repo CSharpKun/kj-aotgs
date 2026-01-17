@@ -1,0 +1,32 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://ddeavi5asx4hw"]
+
+[ext_resource type="StyleBox" uid="uid://pcbabscx4oos" path="res://Styles/MainMenuButtonEmptyStyle.tres" id="1_yhag5"]
+[ext_resource type="StyleBox" uid="uid://1nr3l761dtqx" path="res://Styles/MainMenuButtonFlatStyle.tres" id="2_rfn4m"]
+
+[resource]
+Button/colors/font_color = Color(0.5971761, 0.5971762, 0.59717584, 1)
+Button/colors/font_disabled_color = Color(0.4083292, 0.40832955, 0.40832946, 1)
+Button/colors/font_focus_color = Color(0.59607846, 0.59607846, 0.59607846, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0.82605994, 0.82606006, 0.8260599, 1)
+Button/colors/icon_disabled_color = Color(0.40784314, 0.40784314, 0.40784314, 1)
+Button/colors/icon_focus_color = Color(0.59607846, 0.59607846, 0.59607846, 1)
+Button/colors/icon_hover_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_normal_color = Color(0.59607846, 0.59607846, 0.59607846, 1)
+Button/colors/icon_pressed_color = Color(0.59607846, 0.59607846, 0.59607846, 1)
+Button/constants/align_to_largest_stylebox = 0
+Button/constants/h_separation = 0
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 30
+Button/fonts/font = null
+Button/icons/icon = null
+Button/styles/disabled = ExtResource("1_yhag5")
+Button/styles/focus = ExtResource("1_yhag5")
+Button/styles/hover = ExtResource("2_rfn4m")
+Button/styles/hover_pressed = ExtResource("2_rfn4m")
+Button/styles/normal = ExtResource("1_yhag5")
+Button/styles/pressed = ExtResource("2_rfn4m")

@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3jbbwks517w3"]
+
+[ext_resource type="Texture2D" uid="uid://2w4dntve6sp4" path="res://icon.svg" id="1_4vanb"]
+
+[node name="Options" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.77500004
+anchor_top = 0.2
+anchor_right = 0.8
+anchor_bottom = 0.245
+offset_left = -6.1035156e-05
+offset_bottom = 0.31999207
+size_flags_horizontal = 8
+size_flags_vertical = 0
+icon = ExtResource("1_4vanb")
+icon_alignment = 1
+expand_icon = true
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2
+anchor_top = 0.2
+anchor_right = 0.8
+anchor_bottom = 0.8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="ItemList" type="ItemList" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/HBoxContainer/ItemList"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2
+anchor_top = 0.05
+anchor_right = 0.8
+anchor_bottom = 0.95
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="PanelContainer/HBoxContainer/ItemList/VBoxContainer"]
+layout_mode = 2
+text = "sdffssdsdf"
+
+[node name="Button2" type="Button" parent="PanelContainer/HBoxContainer/ItemList/VBoxContainer"]
+layout_mode = 2
+text = "fsdfsdfds"
+
+[node name="Control" type="Control" parent="PanelContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3

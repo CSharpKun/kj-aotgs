@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5shx5mjk3pri"]
+
+[ext_resource type="Script" uid="uid://v1yycuouh5wj" path="res://Scripts/Menu/Backgrounds/VideoPlayerBackground.cs" id="1_rl3yd"]
+[ext_resource type="VideoStream" uid="uid://dxdf3oye3a0jx" path="res://Backgrounds/VideoPlayerBackground/BackgroundVideos/menu_act01.webm" id="2_mgb84"]
+
+[node name="VideoPlayerBackground" type="CanvasLayer" node_paths=PackedStringArray("VideoPlayer")]
+script = ExtResource("1_rl3yd")
+Video = ExtResource("2_mgb84")
+MusicName = "mainmenu1"
+VideoPlayer = NodePath("VideoStreamPlayer")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

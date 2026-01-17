@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteppeAttorney", "..\SteppeAttorney.csproj", "{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{0901E7F6-FAE2-4C2C-9F39-E6BA5F441F44}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24B90896-31CD-4001-8F4E-8C21177EC604}
+	EndGlobalSection
+EndGlobal

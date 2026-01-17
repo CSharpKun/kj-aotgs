@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dctb3q3r7c8dm"]
+
+[ext_resource type="Script" uid="uid://bsnj085hypns4" path="res://Scripts/Audio/AudioPlayer.cs" id="1_jrh55"]
+[ext_resource type="Resource" uid="uid://clw0pbjv0n3w3" path="res://Playlists/music.tres" id="2_5v1tp"]
+
+[node name="AudioSingleton" type="Node" node_paths=PackedStringArray("Players")]
+script = ExtResource("1_jrh55")
+Playlists = Array[Object]([ExtResource("2_5v1tp")])
+Players = {
+0: NodePath("Music"),
+1: NodePath("Sound"),
+2: NodePath("Ambient"),
+3: NodePath("Voice")
+}
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+
+[node name="Sound" type="AudioStreamPlayer" parent="."]
+
+[node name="Ambient" type="AudioStreamPlayer" parent="."]
+
+[node name="Voice" type="AudioStreamPlayer" parent="."]

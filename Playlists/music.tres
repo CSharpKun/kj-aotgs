@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Playlist" load_steps=5 format=3 uid="uid://clw0pbjv0n3w3"]
+
+[ext_resource type="Script" uid="uid://cqk7a4nc00om2" path="res://Scripts/Audio/Playlist.cs" id="1_0jf7q"]
+[ext_resource type="AudioStream" uid="uid://drgrv13uoorm8" path="res://1-02 9999999 (Title Screen A).mp3" id="1_qeplx"]
+[ext_resource type="Script" uid="uid://csjienlqn5h5i" path="res://Scripts/Audio/Track.cs" id="2_ed72n"]
+
+[sub_resource type="Resource" id="Resource_fvenv"]
+script = ExtResource("2_ed72n")
+Audio = ExtResource("1_qeplx")
+Name = "Main Menu 1"
+metadata/_custom_type_script = "uid://csjienlqn5h5i"
+
+[resource]
+script = ExtResource("1_0jf7q")
+Tracks = Dictionary[String, Object]({
+"mainmenu1": SubResource("Resource_fvenv")
+})
+metadata/_custom_type_script = "uid://cqk7a4nc00om2"
