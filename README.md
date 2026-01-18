@@ -1,6 +1,6 @@
 # Kyle Jenson - Attorney of the Great Steppe
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/3.0/nl/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: GPL v3](https://www.gnu.org/graphics/gplv3-88x31.png)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/3.0/nl/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 [![Godot 4.5](https://img.shields.io/badge/Godot_4.5-%23478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![.NET 10.0](https://img.shields.io/badge/.NET_10.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com)
